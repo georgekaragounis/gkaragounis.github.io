@@ -87,3 +87,12 @@ html[data-theme="dark"] .page__content { --profile-accent: #8acec8; }
   .publication-with-image {grid-template-columns:1fr}
   .publication-thumbnail {width:105px}
 }
+
+.project-entry {display:grid;grid-template-columns:clamp(85px,20%,150px) minmax(0,1fr);align-items:start;gap:clamp(.9rem,2vw,1.45rem)}
+.project-entry .project-visual {display:block;width:100%;height:auto;border-radius:6px}
+.project-entry > div > :last-child {margin-bottom:0}
+.page__content .cv-institution {display:inline-block;width:36px;height:36px;object-fit:contain;padding:3px;margin:0 .25rem 0 0;vertical-align:middle;background:white;border-radius:4px}
+@media(max-width:34em) {
+  .project-entry {grid-template-columns:1fr}
+  .project-entry .project-visual {max-width:100px}
+}

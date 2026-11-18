@@ -9,20 +9,20 @@ author_profile: true
 
 Education
 ------
-### Doctoral research — University of Piraeus
+### <img class="cv-institution" src="{{ '/images/institutions/unipi.webp' | relative_url }}" alt="" width="38" height="38" loading="lazy"> Doctoral research — University of Piraeus
 **December 2025–present**
 
 Research topic: *Fairness-Aware Personalization in Federated Recommender Systems*. Supervisor: Professor Maria Halkidi.
 
 Research areas: federated learning, deep learning, recommender systems, and responsible AI.
 
-### MSc in Artificial Intelligence
+### <img class="cv-institution" src="{{ '/images/institutions/unipi.webp' | relative_url }}" alt="" width="38" height="38" loading="lazy"><img class="cv-institution" src="{{ '/images/institutions/demokritos.webp' | relative_url }}" alt="" width="38" height="38" loading="lazy"> MSc in Artificial Intelligence
 **University of Piraeus & NCSR “Demokritos” · October 2023–June 2025**
 
 Grade: **9.16/10**.<br>
 Master’s thesis: *Federated Learning for Recommender Systems*.
 
-### BSc in Information and Communication Technologies
+### <img class="cv-institution" src="{{ '/images/institutions/unipi.webp' | relative_url }}" alt="" width="38" height="38" loading="lazy"> BSc in Information and Communication Technologies
 **University of Piraeus, Department of Digital Systems · September 2017–June 2021**
 
 Grade: **7.86/10**.<br>
@@ -37,7 +37,7 @@ Experience
 - Developed scalable data ingestion and fusion architectures combining heterogeneous data streams.
 - Supported validation of AI systems through cross-border field trials with international partners.
 
-### Research activities — Horizon Europe PRE-ACT
+### <img class="cv-institution" src="{{ '/images/institutions/aueb.webp' | relative_url }}" alt="" width="38" height="38" loading="lazy"> Research activities — Horizon Europe PRE-ACT
 **Athens University of Economics and Business**
 
 Work on federated learning and explainability for healthcare applications.

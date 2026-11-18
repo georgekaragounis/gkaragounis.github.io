@@ -5,7 +5,10 @@ permalink: /projects/
 author_profile: true
 ---
 
-<section class="profile-card" markdown="1">
+<section class="profile-card project-entry">
+<img class="project-visual" src="{{ '/images/acpfedrec-overview.jpg' | relative_url }}" alt="" loading="lazy">
+<div markdown="1">
+
 ## ACPFedRec
 
 Personalized federated recommendation · Research
@@ -14,9 +17,13 @@ Personalized federated recommendation · Research
 ACPFedRec groups users by content preferences and uses their interaction history to choose between local and shared predictions. We evaluated it on four datasets. The paper was accepted to the WSDM 2027 main track.
 
 [Read the paper]({{ '/files/ACPFedRec_WSDM2027.pdf' | relative_url }}) · [Publication details]({{ '/publication/acpfedrec-wsdm2027/' | relative_url }})
+</div>
 </section>
 
-<section class="profile-card" markdown="1">
+<section class="profile-card project-entry">
+<img class="project-visual" src="{{ '/images/projects/open-source-analysis.webp' | relative_url }}" alt="" loading="lazy">
+<div markdown="1">
+
 ## LLM-powered analytics & OSINT automation
 
 Applied AI · Research engineering
@@ -25,31 +32,44 @@ Applied AI · Research engineering
 I built tools that combine open-source intelligence from different sources and use large language models to support analysis. I also helped validate the systems in field trials with international partners.
 
 Conducted as part of my Research Engineer role at Hardware and Software Engineering, December 2024–June 2026.
+</div>
 </section>
 
-<section class="profile-card" markdown="1">
+<section class="profile-card project-entry">
+<img class="project-visual" src="{{ '/images/projects/radiotherapy.webp' | relative_url }}" alt="" loading="lazy">
+<div markdown="1">
+
 ## PRE-ACT
 
 Federated learning · Explainable AI · Healthcare
 {: .profile-meta}
 
 Contribution to research on federated learning and explainability in the Horizon Europe PRE-ACT project at the Athens University of Economics and Business.
+</div>
 </section>
 
-<section class="profile-card" markdown="1">
+<section class="profile-card project-entry">
+<img class="project-visual" src="{{ '/images/projects/quality-of-life.webp' | relative_url }}" alt="" loading="lazy">
+<div markdown="1">
+
 ## Quality-of-life recommendation
 
 Personalization · Healthcare · Ongoing research
 {: .profile-meta}
 
 Research into personalized recommendation and federated learning for quality-of-life applications, with attention to explainability and differences between user groups.
+</div>
 </section>
 
-<section class="profile-card" markdown="1">
+<section class="profile-card project-entry">
+<img class="project-visual" src="{{ '/images/projects/spatial-indexing.webp' | relative_url }}" alt="" loading="lazy">
+<div markdown="1">
+
 ## Indexing of spatio-textual data
 
 Databases · Undergraduate thesis
 {: .profile-meta}
 
 Bachelor’s thesis in the Department of Digital Systems at the University of Piraeus, focused on indexing spatio-textual data.
+</div>
 </section>
