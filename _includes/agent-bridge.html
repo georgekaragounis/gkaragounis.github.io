@@ -62,10 +62,12 @@
 </g>
 </defs>
 <use href="#bridge-terrain"/>
+<g id="bridge-site">
 <g transform="translate(267 139)"><path d="m-25 0 35-5 17 11-35 6Z" fill="#b9b797"/><path d="m-22-7 32-5 14 10-32 6Z" fill="#edc184" stroke="#987958"/><path d="m-21-13 32-5 14 10-32 6Z" fill="#f6d5a1" stroke="#987958"/></g>
 <g transform="translate(206 253)"><path d="m-25 0 35-5 17 11-35 6Z" fill="#b9b797"/><path d="m-22-7 32-5 14 10-32 6Z" fill="#edc184" stroke="#987958"/><path d="m-21-13 32-5 14 10-32 6Z" fill="#f6d5a1" stroke="#987958"/></g>
 <g transform="translate(753 92)"><path d="m-25 0 35-5 17 11-35 6Z" fill="#b9b797"/><path d="m-22-7 32-5 14 10-32 6Z" fill="#edc184" stroke="#987958"/><path d="m-21-13 32-5 14 10-32 6Z" fill="#f6d5a1" stroke="#987958"/></g>
 <g stroke="#416978" stroke-width="3" fill="#63828a"><path d="M393 166h14v44h-14Zm135 0h14v44h-14Z"/></g>
+</g>
 <g transform="translate(404 165)"><use class="bridge-part bridge-west" href="#span"/><g transform="translate(45)"><use class="bridge-part bridge-middle" href="#span"/></g><g transform="translate(90)"><use class="bridge-part bridge-east" href="#span"/></g></g>
 <g class="bridge-agent scout" color="#60bdb1"><use href="#agent"/><g class="bridge-cargo"><use href="#span" transform="translate(10 -7) scale(.46)"/></g><g class="bridge-speech" aria-hidden="true"><rect x="-90" y="-84" width="180" height="35" rx="11"/><path d="M-7-50 0-42 7-50"/><text x="0" y="-59" text-anchor="middle">I’ll start here!</text></g></g>
 <g class="bridge-agent maker" color="#f0b467"><use href="#agent"/><g class="bridge-cargo"><use href="#span" transform="translate(10 -7) scale(.46)"/></g><g class="bridge-speech" aria-hidden="true"><rect x="-103" y="17" width="206" height="35" rx="11"/><path d="M-7 18 0 9 7 18"/><text x="0" y="42" text-anchor="middle">I’ll join the two!</text></g></g>
@@ -75,17 +77,18 @@
 </section>
 <section class="bridge-panel" aria-label="Working separately">
 <h3>Working separately</h3>
-<svg viewBox="190 128 710 212" role="img" aria-label="Three agents build at different points along the banks. Their sections do not meet, and one falls into the water." xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="140 0 710 292" role="img" aria-label="At the same crossing, two agents place sections at the near end and one at the far end. The middle remains open, and an agent falls through the gap." xmlns="http://www.w3.org/2000/svg">
 
 <use href="#bridge-terrain"/>
+<use href="#bridge-site"/>
 <g class="solo-build" aria-hidden="true">
-<g transform="translate(466 248)"><use class="bridge-part isolated-upper" href="#span"/></g>
-<g transform="translate(480 303)"><use class="bridge-part isolated-lower" href="#span"/></g>
-<g transform="translate(554 274)"><use class="bridge-part isolated-far" href="#span"/></g>
+<g transform="translate(404 165)"><use class="bridge-part isolated-upper" href="#span"/></g>
+<g transform="translate(410 172) rotate(8)"><use class="bridge-part isolated-lower" href="#span"/></g>
+<g transform="translate(494 165)"><use class="bridge-part isolated-far" href="#span"/></g>
 <g class="bridge-agent solo-upper" color="#c6a1bd"><g><use href="#agent"/><g class="bridge-cargo"><use href="#span" transform="translate(10 -7) scale(.46)"/></g></g></g>
 <g class="bridge-agent solo-lower" color="#d5a67e"><g><use href="#agent"/><g class="bridge-cargo"><use href="#span" transform="translate(10 -7) scale(.46)"/></g></g></g>
 <g class="bridge-agent solo-far" color="#94a9bb"><g class="tumble"><use href="#agent"/><g class="bridge-cargo"><use href="#span" transform="translate(10 -7) scale(.46)"/></g></g></g>
-<g transform="translate(539 302)"><g class="river-splash" fill="none" stroke="#f1fffe" stroke-width="3" stroke-linecap="round"><ellipse rx="19" ry="6"/><path d="m-11-4-6-9m17 8 1-13m11 12 6-9"/></g></g>
+<g transform="translate(474 187)"><g class="river-splash" fill="none" stroke="#f1fffe" stroke-width="3" stroke-linecap="round"><ellipse rx="19" ry="6"/><path d="m-11-4-6-9m17 8 1-13m11 12 6-9"/></g></g>
 </g>
 </svg>
 </section>

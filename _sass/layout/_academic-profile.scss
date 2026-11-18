@@ -161,26 +161,26 @@ html[data-theme="dark"] .page__content { --profile-accent: #8acec8; }
 .bridge-speech text {fill:#213e50;font:600 22px system-ui,sans-serif}
 @media(prefers-reduced-motion:reduce) {.bridge-map .bridge-speech {display:none}}
 
-.bridge-map .solo-upper {transform:translate(433px,251px);animation-name:solo-upper}
+.bridge-map .solo-upper {transform:translate(398px,159px);animation-name:solo-upper}
 .bridge-map .isolated-upper {animation-name:isolated-upper}
 .bridge-map .solo-upper .bridge-cargo {animation-name:solo-cargo-upper}
 @keyframes isolated-upper {0%,27%,100% {opacity:0} 29%,95% {opacity:1}}
 @keyframes solo-cargo-upper {0%,27%,100% {opacity:1} 29%,98% {opacity:0}}
-@keyframes solo-upper {0%,8%,100% {transform:translate(300px,233px)} 29%,83% {transform:translate(433px,251px)} }
+@keyframes solo-upper {0%,8%,100% {transform:translate(267px,139px)} 29%,83% {transform:translate(398px,159px)} }
 
-.bridge-map .solo-lower {transform:translate(459px,308px);animation-name:solo-lower}
+.bridge-map .solo-lower {transform:translate(412px,209px);animation-name:solo-lower}
 .bridge-map .isolated-lower {animation-name:isolated-lower}
 .bridge-map .solo-lower .bridge-cargo {animation-name:solo-cargo-lower}
 @keyframes isolated-lower {0%,41%,100% {opacity:0} 43%,95% {opacity:1}}
 @keyframes solo-cargo-lower {0%,41%,100% {opacity:1} 43%,98% {opacity:0}}
-@keyframes solo-lower {0%,8%,100% {transform:translate(287px,326px)} 43%,83% {transform:translate(459px,308px)} }
+@keyframes solo-lower {0%,8%,100% {transform:translate(206px,253px)} 43%,83% {transform:translate(412px,209px)} }
 
-.bridge-map .solo-far {transform:translate(604px,288px);animation-name:solo-far}
+.bridge-map .solo-far {transform:translate(537px,177px);animation-name:solo-far}
 .bridge-map .isolated-far {animation-name:isolated-far}
 .bridge-map .solo-far .bridge-cargo {animation-name:solo-cargo-far}
 @keyframes isolated-far {0%,48%,100% {opacity:0} 50%,95% {opacity:1}}
 @keyframes solo-cargo-far {0%,48%,100% {opacity:1} 50%,98% {opacity:0}}
-@keyframes solo-far {0%,8%,100% {transform:translate(817px,229px)} 50%,53% {transform:translate(604px,288px)} 61% {transform:translate(555px,288px)} 65%,70% {transform:translate(539px,302px)} 79% {transform:translate(574px,311px)} 86% {transform:translate(607px,308px)}}
+@keyframes solo-far {0%,8%,100% {transform:translate(753px,92px)} 50%,53% {transform:translate(537px,177px)} 61% {transform:translate(497px,177px)} 65%,70% {transform:translate(474px,187px)} 79% {transform:translate(503px,202px)} 86% {transform:translate(546px,198px)}}
 
 .bridge-map .tumble {animation:solo-tumble 12s infinite both}
 .bridge-map .river-splash {opacity:0;animation:solo-splash 12s infinite both}
