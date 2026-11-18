@@ -200,7 +200,22 @@ html[data-theme="dark"] .page__content { --profile-accent: #8acec8; }
   .bridge-map .solo-build * {animation:none}
 }
 
-.bridge-map .bridge-panel {margin:0;border:1px solid var(--profile-rule);border-radius:.65rem;overflow:hidden}
-.bridge-map .bridge-panel + .bridge-panel {margin-top:1rem}
-.research-home .bridge-panel h3 {margin:0;padding:.55rem 1rem;background:#234d50;color:white;font:650 1rem/1.25 system-ui,sans-serif;letter-spacing:0}
+.bridge-map {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  grid-template-rows:minmax(0,1fr);
+  aspect-ratio:960 / 340;
+  gap:clamp(3px,.7vw,8px);
+}
+.bridge-map .bridge-panel {
+  min-width:0; min-height:0; margin:0; overflow:hidden;
+  display:grid; grid-template-rows:auto minmax(0,1fr);
+  border:1px solid var(--profile-rule); border-radius:.45rem; background:#e4ead9;
+}
+.bridge-map .bridge-panel svg {width:100%;height:100%;overflow:visible}
+.research-home .bridge-panel h3 {
+  position:relative;z-index:1;margin:0;padding:.25em .6em;
+  background:#234d50;color:white;font:650 clamp(11px,1.7vw,16px)/1.25 system-ui,sans-serif;
+  letter-spacing:0;
+}
 .research-home .bridge-panel + .bridge-panel h3 {background:#494954}
