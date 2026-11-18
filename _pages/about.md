@@ -1,6 +1,6 @@
 ---
 permalink: /
-browser_title: "Georgios Karagkounis Home Page"
+browser_title: "Home - Georgios Karagkounis"
 title: "AI research and applied machine learning"
 author_profile: true
 redirect_from:
