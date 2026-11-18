@@ -20,7 +20,7 @@ redirect_from:
 <section class="research-work" aria-labelledby="selected-work">
   <h2 id="selected-work">Selected work</h2>
   <div class="research-columns">
-    <div><h3>Explainable AI for healthcare</h3><p>Through the Horizon Europe PRE-ACT project, I work on federated learning and explainability for healthcare at the Athens University of Economics and Business.</p></div>
+    <div><h3>Quality-of-life recommendation</h3><p>My ongoing research explores how federated learning can support personalized recommendations for quality of life and how their usefulness varies across user groups.</p></div>
     <div><h3>LLM-powered analytics</h3><p>I built pipelines that bring open-source intelligence together from multiple sources and use language models to help analysts interpret it. I also helped test these tools in international field trials.</p></div>
   </div>
   <div class="research-links"><a href="{{ '/projects/' | relative_url }}">View all projects</a><a href="{{ '/publications/' | relative_url }}">Publications</a></div>

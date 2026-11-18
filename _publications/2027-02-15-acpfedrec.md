@@ -18,7 +18,7 @@ paperurl: https://georgekaragounis.github.io/gkaragounis.github.io/files/ACPFedR
 
 ACPFedRec combines metadata-based TF-IDF profiles, temporally smoothed preference clusters, and activity-conditioned inference in federated recommendation.
 
-This is an accepted main-track paper at WSDM 2027. The author-prepared camera-ready version includes the PRE-ACT acknowledgment and is available under CC BY 4.0.
+This is an accepted main-track paper at WSDM 2027. The author-prepared camera-ready version is available under CC BY 4.0.
 
 [Read paper (PDF)]({{ "/files/ACPFedRec_WSDM2027.pdf" | relative_url }}) · [DOI](https://doi.org/10.1145/3862322.3863419)
 

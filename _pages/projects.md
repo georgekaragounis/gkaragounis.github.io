@@ -36,19 +36,6 @@ Conducted as part of my Research Engineer role at Hardware and Software Engineer
 </section>
 
 <section class="profile-card project-entry">
-<img class="project-visual" src="{{ '/images/projects/radiotherapy.webp' | relative_url }}?v=diagram" alt="Federated learning and explainable predictions in healthcare." loading="lazy">
-<div markdown="1">
-
-## PRE-ACT
-
-Federated learning · Explainable AI · Healthcare
-{: .profile-meta}
-
-Contribution to research on federated learning and explainability in the Horizon Europe PRE-ACT project at the Athens University of Economics and Business.
-</div>
-</section>
-
-<section class="profile-card project-entry">
 <img class="project-visual" src="{{ '/images/projects/quality-of-life.webp' | relative_url }}?v=diagram" alt="User histories inform personalized action recommendations." loading="lazy">
 <div markdown="1">
 
