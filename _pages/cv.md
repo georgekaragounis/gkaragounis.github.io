@@ -61,7 +61,7 @@ Certifications & training
 ------
 - **Fundamentals of Deep Learning** — NVIDIA, July 2025.
 - **Generative AI** — NVIDIA, April 2024.
-- **Data Analysis Certification** — National and Kapodistrian University of Athens, January–June 2023.
+- **Data Analyst** — National and Kapodistrian University of Athens, January–June 2023.
 - **Data Science School** — Reatcode–Workearly, December 2022–June 2023.
 
 [Certification details]({{ '/certifications/' | relative_url }})
