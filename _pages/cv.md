@@ -1,64 +1,34 @@
 ---
-layout: archive
-title: "CV"
+layout: single
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
-{% include base_path %}
-
 Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+------
+**Doctoral research — University of Piraeus**<br>
+Department of Digital Systems. Research topic: fairness-aware personalization in federated recommender systems. Supervisor: Professor Maria Halkidi.
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**MSc in Artificial Intelligence**<br>
+Master’s thesis: *Federated Learning for Recommender Systems*.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**BSc in Digital Systems — University of Piraeus**
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+Research activities
+------
+**Horizon Europe PRE-ACT — Athens University of Economics and Business**<br>
+Work on federated learning and explainability for healthcare applications.
+
+**Personalized federated recommendation**<br>
+Research on adapting personalized predictions to heterogeneous user histories and examining differences in recommendation quality between user groups.
 
 Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+------
+Georgios Karagkounis and Maria Halkidi. *Activity-Conditioned Personalization for Federated Web Recommendation under Sparse User Histories.* Accepted at WSDM 2027.
+
+[PDF]({{ '/files/ACPFedRec_WSDM2027.pdf' | relative_url }}) · [DOI](https://doi.org/10.1145/3862322.3863419)
+
+Research areas
+------
+Artificial intelligence; machine learning; federated learning; recommender systems; explainability; fairness and personalization.
