@@ -51,7 +51,20 @@ html[data-theme="dark"] .page__content { --profile-accent: #8acec8; }
 .credential-preview.award img {width:220px}
 
 .research-home {
-  .research-intro {font-size:1.08em;max-width:66ch;margin:0 0 1.65rem}
+  .research-intro, .research-columns > div, .research-background {
+    container-type: inline-size;
+  }
+  .research-intro {max-width:none}
+  @container (min-width: 22rem) {
+    .research-columns p, .research-background p {
+      text-align: justify;
+      hyphens: auto;
+    }
+  }
+  @media (min-width: 40em) {
+    .research-intro {text-align:justify;hyphens:auto}
+  }
+  .research-intro {font-size:1.08em;margin:0 0 1.65rem}
   h2,h3 {border:0;padding:0;line-height:1.25;letter-spacing:-.02em}
   .research-links {display:flex;align-items:center;flex-wrap:wrap;gap:.65rem 1rem;font-size:.92em}
   .research-work,.research-background {padding:1.5rem 0 .3rem}
