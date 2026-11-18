@@ -21,7 +21,7 @@ ACPFedRec groups users by content preferences and uses their interaction history
 </section>
 
 <section class="profile-card project-entry">
-<img class="project-visual" src="{{ '/images/projects/open-source-analysis.webp' | relative_url }}" alt="" loading="lazy">
+<img class="project-visual" src="{{ '/images/projects/open-source-analysis.webp' | relative_url }}?v=diagram" alt="Open sources feed into analysis with language models." loading="lazy">
 <div markdown="1">
 
 ## LLM-powered analytics & OSINT automation
@@ -36,7 +36,7 @@ Conducted as part of my Research Engineer role at Hardware and Software Engineer
 </section>
 
 <section class="profile-card project-entry">
-<img class="project-visual" src="{{ '/images/projects/radiotherapy.webp' | relative_url }}" alt="" loading="lazy">
+<img class="project-visual" src="{{ '/images/projects/radiotherapy.webp' | relative_url }}?v=diagram" alt="Federated learning and explainable predictions in healthcare." loading="lazy">
 <div markdown="1">
 
 ## PRE-ACT
@@ -49,7 +49,7 @@ Contribution to research on federated learning and explainability in the Horizon
 </section>
 
 <section class="profile-card project-entry">
-<img class="project-visual" src="{{ '/images/projects/quality-of-life.webp' | relative_url }}" alt="" loading="lazy">
+<img class="project-visual" src="{{ '/images/projects/quality-of-life.webp' | relative_url }}?v=diagram" alt="User histories inform personalized action recommendations." loading="lazy">
 <div markdown="1">
 
 ## Quality-of-life recommendation
@@ -62,7 +62,7 @@ Research into personalized recommendation and federated learning for quality-of-
 </section>
 
 <section class="profile-card project-entry">
-<img class="project-visual" src="{{ '/images/projects/spatial-indexing.webp' | relative_url }}" alt="" loading="lazy">
+<img class="project-visual" src="{{ '/images/projects/spatial-indexing.webp' | relative_url }}?v=diagram" alt="Location and text are organized in a joint index." loading="lazy">
 <div markdown="1">
 
 ## Indexing of spatio-textual data
