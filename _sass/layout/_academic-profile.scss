@@ -160,3 +160,42 @@ html[data-theme="dark"] .page__content { --profile-accent: #8acec8; }
 .bridge-speech rect,.bridge-speech path {fill:#fffcf3;stroke:#345867;stroke-width:1.5}
 .bridge-speech text {fill:#213e50;font:600 22px system-ui,sans-serif}
 @media(prefers-reduced-motion:reduce) {.bridge-map .bridge-speech {display:none}}
+
+.bridge-map .solo-upper {transform:translate(433px,251px);animation-name:solo-upper}
+.bridge-map .isolated-upper {animation-name:isolated-upper}
+.bridge-map .solo-upper .bridge-cargo {animation-name:solo-cargo-upper}
+@keyframes isolated-upper {0%,27%,100% {opacity:0} 29%,95% {opacity:1}}
+@keyframes solo-cargo-upper {0%,27%,100% {opacity:1} 29%,98% {opacity:0}}
+@keyframes solo-upper {0%,8%,100% {transform:translate(300px,233px)} 29%,83% {transform:translate(433px,251px)} }
+
+.bridge-map .solo-lower {transform:translate(459px,308px);animation-name:solo-lower}
+.bridge-map .isolated-lower {animation-name:isolated-lower}
+.bridge-map .solo-lower .bridge-cargo {animation-name:solo-cargo-lower}
+@keyframes isolated-lower {0%,41%,100% {opacity:0} 43%,95% {opacity:1}}
+@keyframes solo-cargo-lower {0%,41%,100% {opacity:1} 43%,98% {opacity:0}}
+@keyframes solo-lower {0%,8%,100% {transform:translate(287px,326px)} 43%,83% {transform:translate(459px,308px)} }
+
+.bridge-map .solo-far {transform:translate(604px,288px);animation-name:solo-far}
+.bridge-map .isolated-far {animation-name:isolated-far}
+.bridge-map .solo-far .bridge-cargo {animation-name:solo-cargo-far}
+@keyframes isolated-far {0%,48%,100% {opacity:0} 50%,95% {opacity:1}}
+@keyframes solo-cargo-far {0%,48%,100% {opacity:1} 50%,98% {opacity:0}}
+@keyframes solo-far {0%,8%,100% {transform:translate(817px,229px)} 50%,53% {transform:translate(604px,288px)} 61% {transform:translate(555px,288px)} 65%,70% {transform:translate(539px,302px)} 79% {transform:translate(574px,311px)} 86% {transform:translate(607px,308px)}}
+
+.bridge-map .tumble {animation:solo-tumble 12s infinite both}
+.bridge-map .river-splash {opacity:0;animation:solo-splash 12s infinite both}
+@keyframes solo-tumble {
+  0%,61%,86%,100% {transform:rotate(0);opacity:1}
+  65% {transform:rotate(-55deg) scale(.85);opacity:1}
+  68% {transform:rotate(-65deg) scale(.35);opacity:0}
+  71% {transform:rotate(-16deg) scale(.58);opacity:.9}
+  79% {transform:rotate(-8deg) scale(.75);opacity:1}
+}
+@keyframes solo-splash {
+  0%,63%,76%,100% {opacity:0;transform:scale(.5)}
+  67% {opacity:1;transform:scale(1)}
+  74% {opacity:0;transform:scale(1.6)}
+}
+@media(prefers-reduced-motion:reduce) {
+  .bridge-map .solo-build * {animation:none}
+}
