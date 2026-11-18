@@ -207,11 +207,10 @@ html[data-theme="dark"] .page__content { --profile-accent: #8acec8; }
 }
 .research-home .bridge-panel + .bridge-panel h3 {background:#494954}
 
-/* Center the reading area across the profile's pages. */
-.page__inner-wrap > header, .page__content {text-align:center}
-.page__content :is(p,h2,h3,li,blockquote,figcaption) {text-align:center}
-.page__content :is(.research-links,.cv-jumps,.credential-group header) {justify-content:center}
-.page__content > ul {width:fit-content;max-width:100%;margin-inline:auto;padding-inline-start:0;list-style-position:inside}
-.page__content .research-intro {margin-inline:auto}
-.page__content :is(.project-visual,.publication-thumbnail) {margin-inline:auto}
-.research-home .bridge-panel h3 {text-align:center}
+.page__inner-wrap > header, .page__content {text-align:left}
+.page__content p {
+  text-align:justify;
+  text-align-last:left;
+  hyphens:auto;
+  overflow-wrap:break-word;
+}

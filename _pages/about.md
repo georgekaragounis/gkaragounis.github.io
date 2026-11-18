@@ -1,6 +1,6 @@
 ---
 permalink: /
-browser_title: "Γεώργιος Καραγκούνης Home Page"
+browser_title: "Georgios Karagkounis Home Page"
 title: "AI research and applied machine learning"
 author_profile: true
 redirect_from:
@@ -12,7 +12,7 @@ redirect_from:
 
 <figure style="display:block;margin:1.2rem 0 0">
 {% include agent-bridge.html %}
-<figcaption style="display:block;margin:.85rem 0 0;text-align:center;font-style:normal">
+<figcaption style="display:block;margin:.85rem 0 0;text-align:left;font-style:normal">
 <blockquote cite="https://afb.org/about-afb/history/helen-keller/helen-keller-quotes/helen-keller-quotes-progress" style="border:0;padding:0;margin:0;font-family:Georgia,serif;font-size:1.18em">“Alone we can do so little; together we can do so much.”</blockquote>
 <a href="https://afb.org/about-afb/history/helen-keller/helen-keller-quotes/helen-keller-quotes-progress" style="font-size:.87em">Helen Keller</a>
 </figcaption>
