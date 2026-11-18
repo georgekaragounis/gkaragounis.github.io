@@ -105,11 +105,11 @@ html[data-theme="dark"] .page__content { --profile-accent: #8acec8; }
   label span {width:9px;height:11px;border-inline:3px solid}
   input:checked + label span {width:0;height:0;border:0;border-left:9px solid white;border-block:6px solid transparent}
   input:focus-visible + label {outline:3px solid #091f2d;outline-offset:2px}
-  input:checked ~ svg * {animation-play-state:paused}
+  input:checked ~ .bridge-panel svg * {animation-play-state:paused}
   .bridge-agent,.bridge-part,.bridge-cargo,.bridge-speech {animation-duration:12s;animation-iteration-count:infinite;animation-fill-mode:both}
-  .scout {transform:translate(429px,177px);animation-name:bridge-scout}
+  .scout {transform:translate(402px,173px);animation-name:bridge-scout}
   .maker {transform:translate(467px,182px);animation-name:bridge-maker}
-  .checker {transform:translate(508px,174px);animation-name:bridge-checker}
+  .checker {transform:translate(535px,172px);animation-name:bridge-checker}
   .bridge-west {animation-name:bridge-west}
   .bridge-east {animation-name:bridge-east}
   .bridge-middle {animation-name:bridge-middle}
@@ -121,13 +121,13 @@ html[data-theme="dark"] .page__content { --profile-accent: #8acec8; }
   0%,8%,100% {transform:translate(267px,139px)}
   18%,90% {transform:translate(347px,171px)}
   30%,50% {transform:translate(403px,167px)}
-  62%,80% {transform:translate(429px,177px)}
+  62%,80% {transform:translate(402px,173px)}
 }
 @keyframes bridge-maker {
   0%,14%,100% {transform:translate(206px,253px)}
-  27%,92% {transform:translate(328px,230px)}
-  39%,88% {transform:translate(394px,184px)}
-  53% {transform:translate(440px,179px)}
+  27%,92% {transform:translate(330px,245px)}
+  39%,88% {transform:translate(420px,227px)}
+  53% {transform:translate(464px,201px)}
   62%,80% {transform:translate(467px,182px)}
 }
 @keyframes bridge-checker {
@@ -135,7 +135,7 @@ html[data-theme="dark"] .page__content { --profile-accent: #8acec8; }
   24%,92% {transform:translate(698px,128px)}
   33%,86% {transform:translate(636px,172px)}
   44%,52% {transform:translate(539px,169px)}
-  62%,80% {transform:translate(508px,174px)}
+  62%,80% {transform:translate(535px,172px)}
 }
 @keyframes bridge-west {0%,28%,100% {opacity:0} 31%,95% {opacity:1}}
 @keyframes bridge-drop-west {0%,28%,100% {opacity:1} 31%,98% {opacity:0}}
@@ -199,3 +199,8 @@ html[data-theme="dark"] .page__content { --profile-accent: #8acec8; }
 @media(prefers-reduced-motion:reduce) {
   .bridge-map .solo-build * {animation:none}
 }
+
+.bridge-map .bridge-panel {margin:0;border:1px solid var(--profile-rule);border-radius:.65rem;overflow:hidden}
+.bridge-map .bridge-panel + .bridge-panel {margin-top:1rem}
+.research-home .bridge-panel h3 {margin:0;padding:.55rem 1rem;background:#234d50;color:white;font:650 1rem/1.25 system-ui,sans-serif;letter-spacing:0}
+.research-home .bridge-panel + .bridge-panel h3 {background:#494954}

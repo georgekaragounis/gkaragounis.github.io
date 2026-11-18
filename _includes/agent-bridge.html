@@ -1,9 +1,9 @@
 <div class="bridge-map">
 <input class="bridge-pause" type="checkbox" id="bridge-pause" aria-label="Pause bridge animation">
 <label for="bridge-pause" title="Pause or resume animation"><span aria-hidden="true"></span></label>
-<svg viewBox="0 0 960 340" role="img" aria-labelledby="bridge-title bridge-description" xmlns="http://www.w3.org/2000/svg">
-<title id="bridge-title">A bridge built together</title>
-<desc id="bridge-description">Three small agents carry sections of a bridge across a map. They assemble the sections over a river, then meet on the completed bridge. The first agent starts on the near bank, the second takes the far side, and the third joins the two spans. Downstream, three agents work independently. Their bridge sections do not align. One steps off the unfinished section, splashes into the river, and climbs back onto the bank.</desc>
+<section class="bridge-panel" aria-label="Working together">
+<h3>Working together</h3>
+<svg viewBox="140 0 710 292" role="img" aria-label="Three agents agree where to place their sections and build a continuous bridge." xmlns="http://www.w3.org/2000/svg">
 <defs>
   <linearGradient id="land" x2="1" y2="1"><stop stop-color="#f3efdc"/><stop offset="1" stop-color="#d9e6cf"/></linearGradient>
   <linearGradient id="water" x2=".9" y2="1"><stop stop-color="#8dcfcd"/><stop offset="1" stop-color="#4b9eac"/></linearGradient>
@@ -12,7 +12,7 @@
   <g id="pine"><ellipse cy="2" rx="13" ry="5" fill="#5b8771" opacity=".19"/><path d="M0 2v-17" stroke="#697c61" stroke-width="3"/><path d="m0-34-13 25q14 6 26 0Z" fill="#619c8c"/><path d="m0-34 13 25q-6 3-13 3Z" fill="#427e72"/></g>
   <g id="agent"><ellipse cy="4" rx="17" ry="5" fill="#26474e" opacity=".18"/><rect x="-11" y="-6" width="8" height="10" rx="4" fill="#304e5b"/><rect x="3" y="-6" width="8" height="10" rx="4" fill="#304e5b"/><path d="M0-30v-7" stroke="#345867" stroke-width="2.5"/><circle cy="-38" r="3" fill="currentColor"/><rect x="-17" y="-30" width="34" height="27" rx="10" fill="currentColor" stroke="#365461" stroke-width="1.5"/><rect x="-12" y="-23" width="24" height="13" rx="6" fill="#213e50"/><g fill="#edfff7"><circle cx="-5" cy="-17" r="2.5"/><circle cx="5" cy="-17" r="2.5"/></g></g>
   <g id="span"><path d="M0 0h45l-7 25H-7Z" fill="#ffe2a3" stroke="#88644c" stroke-width="1.6"/><path d="M-7 25h45v5H-7Z" fill="#94735c"/><path d="m9 2-6 21m16-21-6 21m16-21-6 21m16-21-6 21" stroke="#cd995f" stroke-width="2"/></g>
-</defs>
+<g id="bridge-terrain">
 <rect width="960" height="340" fill="url(#land)"/>
 <g fill="none" stroke="#a7bf92" stroke-width="1.4" opacity=".6">
 <path transform="translate(30,18) scale(1,1)" d="M-180-60Q-80-30-62 4T33 59t99 63"/>
@@ -59,14 +59,25 @@
 <use href="#pine" transform="translate(885 170) scale(0.95)"/>
 <use href="#pine" transform="translate(911 178) scale(1.1)"/>
 <use href="#pine" transform="translate(934 165) scale(0.8)"/>
+</g>
+</defs>
+<use href="#bridge-terrain"/>
 <g transform="translate(267 139)"><path d="m-25 0 35-5 17 11-35 6Z" fill="#b9b797"/><path d="m-22-7 32-5 14 10-32 6Z" fill="#edc184" stroke="#987958"/><path d="m-21-13 32-5 14 10-32 6Z" fill="#f6d5a1" stroke="#987958"/></g>
 <g transform="translate(206 253)"><path d="m-25 0 35-5 17 11-35 6Z" fill="#b9b797"/><path d="m-22-7 32-5 14 10-32 6Z" fill="#edc184" stroke="#987958"/><path d="m-21-13 32-5 14 10-32 6Z" fill="#f6d5a1" stroke="#987958"/></g>
 <g transform="translate(753 92)"><path d="m-25 0 35-5 17 11-35 6Z" fill="#b9b797"/><path d="m-22-7 32-5 14 10-32 6Z" fill="#edc184" stroke="#987958"/><path d="m-21-13 32-5 14 10-32 6Z" fill="#f6d5a1" stroke="#987958"/></g>
 <g stroke="#416978" stroke-width="3" fill="#63828a"><path d="M393 166h14v44h-14Zm135 0h14v44h-14Z"/></g>
 <g transform="translate(404 165)"><use class="bridge-part bridge-west" href="#span"/><g transform="translate(45)"><use class="bridge-part bridge-middle" href="#span"/></g><g transform="translate(90)"><use class="bridge-part bridge-east" href="#span"/></g></g>
 <g class="bridge-agent scout" color="#60bdb1"><use href="#agent"/><g class="bridge-cargo"><use href="#span" transform="translate(10 -7) scale(.46)"/></g><g class="bridge-speech" aria-hidden="true"><rect x="-90" y="-84" width="180" height="35" rx="11"/><path d="M-7-50 0-42 7-50"/><text x="0" y="-59" text-anchor="middle">I’ll start here!</text></g></g>
-<g class="bridge-agent maker" color="#f0b467"><use href="#agent"/><g class="bridge-cargo"><use href="#span" transform="translate(10 -7) scale(.46)"/></g><g class="bridge-speech" aria-hidden="true"><rect x="-103" y="-84" width="206" height="35" rx="11"/><path d="M-7-50 0-42 7-50"/><text x="0" y="-59" text-anchor="middle">I’ll join the two!</text></g></g>
+<g class="bridge-agent maker" color="#f0b467"><use href="#agent"/><g class="bridge-cargo"><use href="#span" transform="translate(10 -7) scale(.46)"/></g><g class="bridge-speech" aria-hidden="true"><rect x="-103" y="17" width="206" height="35" rx="11"/><path d="M-7 18 0 9 7 18"/><text x="0" y="42" text-anchor="middle">I’ll join the two!</text></g></g>
 <g class="bridge-agent checker" color="#91a9db"><use href="#agent"/><g class="bridge-cargo"><use href="#span" transform="translate(10 -7) scale(.46)"/></g><g class="bridge-speech" aria-hidden="true"><rect x="-104" y="-84" width="208" height="35" rx="11"/><path d="M-7-50 0-42 7-50"/><text x="0" y="-59" text-anchor="middle">Far side’s mine!</text></g></g>
+
+</svg>
+</section>
+<section class="bridge-panel" aria-label="Working separately">
+<h3>Working separately</h3>
+<svg viewBox="190 128 710 212" role="img" aria-label="Three agents build at different points along the banks. Their sections do not meet, and one falls into the water." xmlns="http://www.w3.org/2000/svg">
+
+<use href="#bridge-terrain"/>
 <g class="solo-build" aria-hidden="true">
 <g transform="translate(466 248)"><use class="bridge-part isolated-upper" href="#span"/></g>
 <g transform="translate(480 303)"><use class="bridge-part isolated-lower" href="#span"/></g>
@@ -75,5 +86,7 @@
 <g class="bridge-agent solo-lower" color="#d5a67e"><g><use href="#agent"/><g class="bridge-cargo"><use href="#span" transform="translate(10 -7) scale(.46)"/></g></g></g>
 <g class="bridge-agent solo-far" color="#94a9bb"><g class="tumble"><use href="#agent"/><g class="bridge-cargo"><use href="#span" transform="translate(10 -7) scale(.46)"/></g></g></g>
 <g transform="translate(539 302)"><g class="river-splash" fill="none" stroke="#f1fffe" stroke-width="3" stroke-linecap="round"><ellipse rx="19" ry="6"/><path d="m-11-4-6-9m17 8 1-13m11 12 6-9"/></g></g>
-</g><g fill="#2b5154" font-family="system-ui,sans-serif" font-weight="650" font-size="20"><text x="24" y="35">Shared plan</text><text x="24" y="324">Working separately</text></g>
-</svg></div>
+</g>
+</svg>
+</section>
+</div>
