@@ -6,10 +6,15 @@ author_profile: true
 ---
 
 {% for post in site.publications reversed %}
-  <article class="profile-card">
+  <article class="profile-card{% if post.thumbnail %} publication-with-image{% endif %}">
+    {% if post.thumbnail %}
+    <a class="publication-thumbnail" href="{{ post.url | relative_url }}" aria-label="View publication details for {{ post.title | escape }}"><img src="{{ post.thumbnail | relative_url }}" width="302" height="392" alt=""></a>
+    {% endif %}
+    <div>
     <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
     <p class="profile-meta">{{ post.venue | escape }} · {{ post.date | date: '%Y' }}</p>
     <p>{{ post.excerpt | strip_html | escape }}</p>
     {% if post.paperurl %}<a href="{{ post.paperurl }}">Read paper (PDF)</a>{% endif %}
+    </div>
   </article>
 {% endfor %}

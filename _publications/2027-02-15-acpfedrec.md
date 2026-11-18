@@ -8,6 +8,7 @@ date: '2027-02-15'
 venue: Proceedings of the Twentieth ACM International Conference on Web Search and
   Data Mining (WSDM ’27)
 status: Accepted
+thumbnail: /images/acpfedrec-overview.jpg
 excerpt: Georgios Karagkounis and Maria Halkidi. Accepted main-track paper at WSDM
   2027. ACPFedRec adapts federated recommendation to heterogeneous user histories.
 citation: Georgios Karagkounis and Maria Halkidi. 2027. Activity-Conditioned Personalization
