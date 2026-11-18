@@ -7,8 +7,8 @@ author_profile: true
 
 <section class="credential-group">
   <header><img src="{{ '/images/certifications/nvidia.png' | relative_url }}" width="42" height="42" alt=""><h2>NVIDIA</h2></header>
-  <div class="credential"><h3>Fundamentals of Deep Learning</h3><p class="credential-date">July 2025</p><p>Training in the foundations of neural networks and how they learn from data.</p></div>
-<div class="credential"><h3>Generative AI</h3><p class="credential-date">April 2024</p><p>An introduction to models that learn patterns in data to generate new content.</p></div>
+  <div class="credential"><h3>Fundamentals of Deep Learning</h3><p class="credential-date">July 2025</p><p>Training in the foundations of neural networks and how they learn from data.</p><a class="credential-preview" href="{{ '/files/certifications/nvidia-fundamentals.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/images/certifications/nvidia-fundamentals-thumb.jpg' | relative_url }}" alt="Open the NVIDIA Fundamentals of Deep Learning certificate (PDF)" loading="lazy"></a></div>
+<div class="credential"><h3>Generative AI with Diffusion Models</h3><p class="credential-date">April 2024</p><p>Workshop on generative AI with diffusion models.</p><a class="credential-preview" href="{{ '/files/certifications/nvidia-generative.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/images/certifications/nvidia-generative-thumb.jpg' | relative_url }}" alt="Open the NVIDIA Generative AI with Diffusion Models certificate (PDF)" loading="lazy"></a></div>
 </section>
 
 <section class="credential-group">
