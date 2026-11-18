@@ -106,7 +106,7 @@ html[data-theme="dark"] .page__content { --profile-accent: #8acec8; }
   input:checked + label span {width:0;height:0;border:0;border-left:9px solid white;border-block:6px solid transparent}
   input:focus-visible + label {outline:3px solid #091f2d;outline-offset:2px}
   input:checked ~ svg * {animation-play-state:paused}
-  .bridge-agent,.bridge-part,.bridge-cargo {animation-duration:12s;animation-iteration-count:infinite;animation-fill-mode:both}
+  .bridge-agent,.bridge-part,.bridge-cargo,.bridge-speech {animation-duration:12s;animation-iteration-count:infinite;animation-fill-mode:both}
   .scout {transform:translate(429px,177px);animation-name:bridge-scout}
   .maker {transform:translate(467px,182px);animation-name:bridge-maker}
   .checker {transform:translate(508px,174px);animation-name:bridge-checker}
@@ -146,3 +146,17 @@ html[data-theme="dark"] .page__content { --profile-accent: #8acec8; }
 @media(prefers-reduced-motion:reduce) {
   .bridge-map { .bridge-agent,.bridge-part,.bridge-cargo {animation:none} .bridge-cargo,label,input {display:none} }
 }
+
+@keyframes speech-scout {0%,2%,30%,100% {opacity:0} 4%,28% {opacity:1}}
+.bridge-map .scout .bridge-speech {animation-name:speech-scout}
+
+@keyframes speech-checker {0%,30%,48%,100% {opacity:0} 32%,46% {opacity:1}}
+.bridge-map .checker .bridge-speech {animation-name:speech-checker}
+
+@keyframes speech-maker {0%,48%,74%,100% {opacity:0} 50%,72% {opacity:1}}
+.bridge-map .maker .bridge-speech {animation-name:speech-maker}
+
+.bridge-speech {opacity:0;pointer-events:none}
+.bridge-speech rect,.bridge-speech path {fill:#fffcf3;stroke:#345867;stroke-width:1.5}
+.bridge-speech text {fill:#213e50;font:600 22px system-ui,sans-serif}
+@media(prefers-reduced-motion:reduce) {.bridge-map .bridge-speech {display:none}}
