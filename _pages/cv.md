@@ -52,8 +52,8 @@ Technical skills
 
 Honors & awards
 ------
-**Academic Excellence Award — February 2026**<br>
-University of Piraeus & NCSR “Demokritos”. Awarded for MSc academic performance, ranking among the top three students in the program for 2024–2025.
+**Academic Achievement Award — 12 February 2026**<br>
+University of Piraeus. Awarded for academic performance in the MSc in Artificial Intelligence for the 2024–2025 academic year.
 
 [Honors & awards]({{ '/awards/' | relative_url }})
 

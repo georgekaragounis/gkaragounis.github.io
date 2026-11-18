@@ -28,7 +28,7 @@ Accepted main-track paper, **WSDM 2027**.
 
 Background & recognition
 ------
-MSc in Artificial Intelligence, University of Piraeus and NCSR “Demokritos”. Recipient of the **Academic Excellence Award** for performance in the MSc program.
+MSc in Artificial Intelligence, University of Piraeus and NCSR “Demokritos”. Recipient of the **Academic Achievement Award** for performance in the MSc program.
 
 [Curriculum vitae]({{ '/cv/' | relative_url }}) · [Certifications & training]({{ '/certifications/' | relative_url }}) · [Honors & awards]({{ '/awards/' | relative_url }})
 
