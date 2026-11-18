@@ -28,7 +28,7 @@ redirect_from:
 
 <section class="research-background" aria-labelledby="background">
   <h2 id="background">Background</h2>
-  <p>I hold an MSc in Artificial Intelligence from the University of Piraeus and NCSR “Demokritos”. The University of Piraeus recognized my performance in the program with its <a href="{{ '/awards/' | relative_url }}">Academic Achievement Award</a>.</p>
+  <p>I earned my BSc in Information and Communication Technologies at the University of Piraeus. I then completed the MSc in Artificial Intelligence offered jointly by the University of Piraeus and NCSR “Demokritos”, graduating with an excellent grade and receiving the university’s <a href="{{ '/awards/' | relative_url }}">Academic Achievement Award</a>.</p>
   <div class="research-links"><a href="{{ '/cv/' | relative_url }}">Curriculum vitae</a><a href="{{ '/certifications/' | relative_url }}">Certifications</a><a href="mailto:karagounis@unipi.gr">Contact me</a></div>
 </section>
 </div>
