@@ -1,5 +1,6 @@
 ---
 permalink: /
+browser_title: "Γεώργιος Καραγκούνης Home Page"
 title: "AI research and applied machine learning"
 author_profile: true
 redirect_from:
