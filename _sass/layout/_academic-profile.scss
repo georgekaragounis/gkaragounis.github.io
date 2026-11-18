@@ -51,19 +51,6 @@ html[data-theme="dark"] .page__content { --profile-accent: #8acec8; }
 .credential-preview.award img {width:220px}
 
 .research-home {
-  .research-intro, .research-columns > div, .research-background {
-    container-type: inline-size;
-  }
-  .research-intro {max-width:none}
-  @container (min-width: 22rem) {
-    .research-columns p, .research-background p {
-      text-align: justify;
-      hyphens: auto;
-    }
-  }
-  @media (min-width: 40em) {
-    .research-intro {text-align:justify;hyphens:auto}
-  }
   .research-intro {font-size:1.08em;margin:0 0 1.65rem}
   h2,h3 {border:0;padding:0;line-height:1.25;letter-spacing:-.02em}
   .research-links {display:flex;align-items:center;flex-wrap:wrap;gap:.65rem 1rem;font-size:.92em}
@@ -219,3 +206,12 @@ html[data-theme="dark"] .page__content { --profile-accent: #8acec8; }
   letter-spacing:0;
 }
 .research-home .bridge-panel + .bridge-panel h3 {background:#494954}
+
+/* Center the reading area across the profile's pages. */
+.page__inner-wrap > header, .page__content {text-align:center}
+.page__content :is(p,h2,h3,li,blockquote,figcaption) {text-align:center}
+.page__content :is(.research-links,.cv-jumps,.credential-group header) {justify-content:center}
+.page__content > ul {width:fit-content;max-width:100%;margin-inline:auto;padding-inline-start:0;list-style-position:inside}
+.page__content .research-intro {margin-inline:auto}
+.page__content :is(.project-visual,.publication-thumbnail) {margin-inline:auto}
+.research-home .bridge-panel h3 {text-align:center}
