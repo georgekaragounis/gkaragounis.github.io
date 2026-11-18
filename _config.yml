@@ -8,7 +8,7 @@ url: https://georgekaragounis.github.io
 baseurl: /gkaragounis.github.io
 repository: georgekaragounis/gkaragounis.github.io
 author:
-  avatar: profile.svg
+  avatar: profile.jpg
   name: Georgios Karagkounis
   pronouns: null
   bio: AI Researcher
@@ -118,7 +118,7 @@ facebook:
   username: null
   app_id: null
   publisher: null
-og_image: profile.svg
+og_image: profile.jpg
 og_description: null
 social:
   type: null
