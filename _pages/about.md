@@ -10,7 +10,7 @@ redirect_from:
 <p class="research-intro">I’m Georgios Karagkounis, an AI researcher based in Athens. I study how machine learning models can learn from distributed data, adapt to individual needs, and make their predictions easier to understand. My work spans federated learning, recommender systems, and explainable AI. I also build tools that use language models to help people analyze information from multiple sources.</p>
 
 <figure style="display:block;margin:1.2rem 0 0">
-<img class="research-banner" src="{{ '/images/ai-research-banner.webp' | relative_url }}" width="1200" height="430" alt="">
+<img class="research-banner" src="{{ '/images/ai-matrices.webp' | relative_url }}" width="1200" height="400" alt="">
 <figcaption style="display:block;margin:.85rem 0 0;padding-left:1rem;border-left:3px solid var(--profile-accent);text-align:left;font-style:normal">
 <blockquote cite="https://history.computer.org/hamming.html" style="border:0;padding:0;margin:0;font-family:Georgia,serif;font-size:1.18em">“The purpose of computing is insight, not numbers.”</blockquote>
 <a href="https://history.computer.org/hamming.html" style="font-size:.87em">Richard W. Hamming</a>
