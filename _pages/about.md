@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Personalized AI for people with different histories"
+title: "AI research and applied machine learning"
 author_profile: true
 redirect_from:
   - /about/
 ---
 
 <div class="research-home">
-<p class="research-intro">I’m Georgios Karagkounis, an AI researcher in Athens. I study how recommender systems can serve someone with just a few interactions as well as someone with a long history. My research brings together federated learning, personalization, and fairness.</p>
+<p class="research-intro">I’m Georgios Karagkounis, an AI researcher based in Athens. I study how machine learning models can learn from distributed data, adapt to individual needs, and make their predictions easier to understand. My work spans federated learning, recommender systems, and explainable AI. I also build tools that use language models to help people analyze information from multiple sources.</p>
 
 <section class="research-feature" aria-labelledby="featured-paper">
   <img class="research-diagram" src="{{ '/images/acpfedrec-overview.jpg' | relative_url }}" width="302" height="392" alt="ACPFedRec uses local predictions for users with rich histories and combines global, cluster, and local predictions for users with sparse histories.">
