@@ -5,7 +5,7 @@ permalink: /cv/
 author_profile: true
 ---
 
-AI Researcher based in Athens, Greece.
+<nav class="cv-jumps" aria-label="CV sections"><a href="#education">Education</a><a href="#experience">Experience</a><a href="#technical-skills">Technical skills</a><a href="#honors">Honors &amp; awards</a><a href="#training">Certifications</a><a href="#publications">Publications</a><a href="#languages">Languages</a></nav>
 
 Education
 ------
@@ -52,6 +52,7 @@ Technical skills
 
 Honors & awards
 ------
+{: #honors}
 **Academic Achievement Award — 12 February 2026**<br>
 University of Piraeus. Awarded for academic performance in the MSc in Artificial Intelligence for the 2024–2025 academic year.
 
@@ -59,6 +60,7 @@ University of Piraeus. Awarded for academic performance in the MSc in Artificial
 
 Certifications & training
 ------
+{: #training}
 - **Fundamentals of Deep Learning** — NVIDIA, July 2025.
 - **Generative AI** — NVIDIA, April 2024.
 - **Data Analyst** — National and Kapodistrian University of Athens, January–June 2023.

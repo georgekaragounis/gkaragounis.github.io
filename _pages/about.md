@@ -6,9 +6,9 @@ redirect_from:
   - /about/
 ---
 
-I am an **AI Researcher specializing in federated learning, personalized recommender systems, and explainable AI**. My research focuses on learning from distributed and heterogeneous data, with particular interest in fairness, personalization, and responsible AI.
+I am an **AI researcher** working on federated learning, personalized recommender systems, and explainable AI. I study how recommendation models can learn across users with different amounts of data and how those differences affect the quality of their recommendations.
 
-Alongside my research, I work on applied AI systems, including **LLM-powered analytical pipelines, AI-based automation, and data ingestion and fusion workflows**. My experience brings together machine learning, deep learning, statistical analysis, and the development of practical tools for complex, data-driven problems.
+My applied work includes building pipelines that combine data from multiple sources and using large language models to help analysts interpret that information.
 
 Research interests
 ------
@@ -17,6 +17,7 @@ Research interests
 - Fairness, explainability, and responsible AI
 - Generative AI and large language models
 - Applied AI for healthcare and quality-of-life applications
+{: .focus-list}
 
 Selected publication
 ------
