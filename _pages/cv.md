@@ -5,23 +5,66 @@ permalink: /cv/
 author_profile: true
 ---
 
+AI Researcher based in Athens, Greece.
+
 Education
 ------
-**Doctoral research — University of Piraeus**<br>
-Department of Digital Systems. Research topic: fairness-aware personalization in federated recommender systems. Supervisor: Professor Maria Halkidi.
+### Doctoral research — University of Piraeus
+**December 2025–present**
 
-**MSc in Artificial Intelligence**<br>
+Research topic: *Fairness-Aware Personalization in Federated Recommender Systems*. Supervisor: Professor Maria Halkidi.
+
+Research areas: federated learning, deep learning, recommender systems, and responsible AI.
+
+### MSc in Artificial Intelligence
+**University of Piraeus & NCSR “Demokritos” · October 2023–June 2025**
+
+Grade: **9.16/10**.<br>
 Master’s thesis: *Federated Learning for Recommender Systems*.
 
-**BSc in Digital Systems — University of Piraeus**
+### BSc in Information and Communication Technologies
+**University of Piraeus, Department of Digital Systems · September 2017–June 2021**
 
-Research activities
+Grade: **7.86/10**.<br>
+Bachelor’s thesis: *Indexing of spatio-textual data*.
+
+Experience
 ------
-**Horizon Europe PRE-ACT — Athens University of Economics and Business**<br>
+### Research Engineer — Hardware and Software Engineering
+**December 2024–June 2026**
+
+- Led the development of AI-based OSINT automation tools and LLM-powered analytical pipelines for intelligence synthesis.
+- Developed scalable data ingestion and fusion architectures combining heterogeneous data streams.
+- Supported validation of AI systems through cross-border field trials with international partners.
+
+### Research activities — Horizon Europe PRE-ACT
+**Athens University of Economics and Business**
+
 Work on federated learning and explainability for healthcare applications.
 
-**Personalized federated recommendation**<br>
-Research on adapting personalized predictions to heterogeneous user histories and examining differences in recommendation quality between user groups.
+Technical skills
+------
+**Programming:** Python, SQL, Java, R, Prolog, ASP.
+
+**Tools & libraries:** PyTorch, NumPy, Pandas, scikit-learn, FastAPI, FAISS, LangChain, Docker, Kafka, Tableau, Power BI.
+
+**Areas:** machine learning, deep learning, statistical modeling, data preparation and visualization, business and data analysis.
+
+Honors & awards
+------
+**Academic Excellence Award — February 2026**<br>
+University of Piraeus & NCSR “Demokritos”. Awarded for MSc academic performance, ranking among the top three students in the program for 2024–2025.
+
+[Honors & awards]({{ '/awards/' | relative_url }})
+
+Certifications & training
+------
+- **Fundamentals of Deep Learning** — NVIDIA, July 2025.
+- **Generative AI** — NVIDIA, April 2024.
+- **Data Analysis Certification** — National and Kapodistrian University of Athens, January–June 2023.
+- **Data Science School** — Reatcode–Workearly, December 2022–June 2023.
+
+[Certification details]({{ '/certifications/' | relative_url }})
 
 Publications
 ------
@@ -29,6 +72,6 @@ Georgios Karagkounis and Maria Halkidi. *Activity-Conditioned Personalization fo
 
 [PDF]({{ '/files/ACPFedRec_WSDM2027.pdf' | relative_url }}) · [DOI](https://doi.org/10.1145/3862322.3863419)
 
-Research areas
+Languages
 ------
-Artificial intelligence; machine learning; federated learning; recommender systems; explainability; fairness and personalization.
+Greek and English.

@@ -6,19 +6,17 @@ redirect_from:
   - /about/
 ---
 
-I am **Georgios Karagkounis**, an Informatics Engineer with an MSc in Artificial Intelligence. My work brings together machine learning, data analysis, and the development of systems that learn from diverse user needs and distributed data.
+I am an **AI Researcher specializing in federated learning, personalized recommender systems, and explainable AI**. My research focuses on learning from distributed and heterogeneous data, with particular interest in fairness, personalization, and responsible AI.
 
-My interests include **artificial intelligence, personalized recommendation, federated learning, fairness, and explainable AI**, with applications in recommendation and healthcare.
-
-I am pursuing doctoral research in the Department of Digital Systems at the **University of Piraeus**, supervised by Professor Maria Halkidi. My research focuses on fairness-aware personalization in federated recommender systems. Alongside this work, I contribute to federated learning and explainability in the **Horizon Europe PRE-ACT project** at the Athens University of Economics and Business.
+Alongside my research, I work on applied AI systems, including **LLM-powered analytical pipelines, AI-based automation, and data ingestion and fusion workflows**. My experience brings together machine learning, deep learning, statistical analysis, and the development of practical tools for complex, data-driven problems.
 
 Research interests
 ------
-- Machine learning and artificial intelligence
-- Federated learning and distributed personalization
-- Recommender systems and user modeling
-- Fairness and explainable AI
-- Healthcare and quality-of-life applications
+- Federated learning and distributed machine learning
+- Personalized recommender systems and user modeling
+- Fairness, explainability, and responsible AI
+- Generative AI and large language models
+- Applied AI for healthcare and quality-of-life applications
 
 Selected publication
 ------
@@ -28,6 +26,14 @@ Accepted main-track paper, **WSDM 2027**.
 
 [Read paper (PDF)]({{ '/files/ACPFedRec_WSDM2027.pdf' | relative_url }}) · [Publication details]({{ '/publication/acpfedrec-wsdm2027/' | relative_url }}) · [DOI](https://doi.org/10.1145/3862322.3863419)
 
+Background & recognition
+------
+MSc in Artificial Intelligence, University of Piraeus and NCSR “Demokritos”. Recipient of the **Academic Excellence Award** for performance in the MSc program.
+
+[Curriculum vitae]({{ '/cv/' | relative_url }}) · [Certifications & training]({{ '/certifications/' | relative_url }}) · [Honors & awards]({{ '/awards/' | relative_url }})
+
 Contact
 ------
+Based in **Athens, Greece**.
+
 [karagounis@unipi.gr](mailto:karagounis@unipi.gr) · [LinkedIn](https://www.linkedin.com/in/george-karagounis-/) · [GitHub](https://github.com/georgekaragounis)

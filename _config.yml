@@ -3,8 +3,7 @@ site_theme: default
 title: Georgios Karagkounis
 title_separator: '-'
 name: Georgios Karagkounis
-description: Informatics Engineer and AI researcher working on machine learning, personalization,
-  federated learning, and explainable AI.
+description: AI Researcher specializing in federated learning, personalized recommender systems, and explainable AI.
 url: https://georgekaragounis.github.io
 baseurl: /gkaragounis.github.io
 repository: georgekaragounis/gkaragounis.github.io
@@ -12,9 +11,9 @@ author:
   avatar: profile.svg
   name: Georgios Karagkounis
   pronouns: null
-  bio: Informatics Engineer · AI Researcher
-  location: Piraeus, Greece
-  employer: University of Piraeus
+  bio: AI Researcher
+  location: Athens, Greece
+  employer: null
   uri: null
   email: karagounis@unipi.gr
   academia: null
