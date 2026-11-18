@@ -1,0 +1,70 @@
+<div class="bridge-map">
+<input class="bridge-pause" type="checkbox" id="bridge-pause" aria-label="Pause bridge animation">
+<label for="bridge-pause" title="Pause or resume animation"><span aria-hidden="true"></span></label>
+<svg viewBox="0 0 960 340" role="img" aria-labelledby="bridge-title bridge-description" xmlns="http://www.w3.org/2000/svg">
+<title id="bridge-title">A bridge built together</title>
+<desc id="bridge-description">Three small agents carry sections of a bridge across a map. They assemble the sections over a river, then meet on the completed bridge.</desc>
+<defs>
+  <linearGradient id="land" x2="1" y2="1"><stop stop-color="#f3efdc"/><stop offset="1" stop-color="#d9e6cf"/></linearGradient>
+  <linearGradient id="water" x2=".9" y2="1"><stop stop-color="#8dcfcd"/><stop offset="1" stop-color="#4b9eac"/></linearGradient>
+  <pattern id="ripples" width="61" height="29" patternUnits="userSpaceOnUse"><path d="M6 12q5 2 11 0m8 1h4" fill="none" stroke="#dcf4e9" opacity=".55" stroke-linecap="round"/></pattern>
+  <path id="river" d="M326-10C337 42 477 43 439 103S377 192 449 232s33 77-3 119h130c44-73 40-112-30-147s-14-74 19-121S513 11 496-10Z"/>
+  <g id="pine"><ellipse cy="2" rx="13" ry="5" fill="#5b8771" opacity=".19"/><path d="M0 2v-17" stroke="#697c61" stroke-width="3"/><path d="m0-34-13 25q14 6 26 0Z" fill="#619c8c"/><path d="m0-34 13 25q-6 3-13 3Z" fill="#427e72"/></g>
+  <g id="agent"><ellipse cy="4" rx="17" ry="5" fill="#26474e" opacity=".18"/><rect x="-11" y="-6" width="8" height="10" rx="4" fill="#304e5b"/><rect x="3" y="-6" width="8" height="10" rx="4" fill="#304e5b"/><path d="M0-30v-7" stroke="#345867" stroke-width="2.5"/><circle cy="-38" r="3" fill="currentColor"/><rect x="-17" y="-30" width="34" height="27" rx="10" fill="currentColor" stroke="#365461" stroke-width="1.5"/><rect x="-12" y="-23" width="24" height="13" rx="6" fill="#213e50"/><g fill="#edfff7"><circle cx="-5" cy="-17" r="2.5"/><circle cx="5" cy="-17" r="2.5"/></g></g>
+  <g id="span"><path d="M0 0h45l-7 25H-7Z" fill="#ffe2a3" stroke="#88644c" stroke-width="1.6"/><path d="M-7 25h45v5H-7Z" fill="#94735c"/><path d="m9 2-6 21m16-21-6 21m16-21-6 21m16-21-6 21" stroke="#cd995f" stroke-width="2"/></g>
+</defs>
+<rect width="960" height="340" fill="url(#land)"/>
+<g fill="none" stroke="#a7bf92" stroke-width="1.4" opacity=".6">
+<path transform="translate(30,18) scale(1,1)" d="M-180-60Q-80-30-62 4T33 59t99 63"/>
+<path transform="translate(39,25) scale(1,1)" d="M-180-60Q-80-30-62 4T33 59t99 63"/>
+<path transform="translate(48,32) scale(1,1)" d="M-180-60Q-80-30-62 4T33 59t99 63"/>
+<path transform="translate(57,39) scale(1,1)" d="M-180-60Q-80-30-62 4T33 59t99 63"/>
+<path transform="translate(250,330) scale(1,1)" d="M-180-60Q-80-30-62 4T33 59t99 63"/>
+<path transform="translate(259,337) scale(1,1)" d="M-180-60Q-80-30-62 4T33 59t99 63"/>
+<path transform="translate(268,344) scale(1,1)" d="M-180-60Q-80-30-62 4T33 59t99 63"/>
+<path transform="translate(277,351) scale(1,1)" d="M-180-60Q-80-30-62 4T33 59t99 63"/>
+<path transform="translate(810,10) scale(1,1)" d="M-180-60Q-80-30-62 4T33 59t99 63"/>
+<path transform="translate(819,17) scale(1,1)" d="M-180-60Q-80-30-62 4T33 59t99 63"/>
+<path transform="translate(828,24) scale(1,1)" d="M-180-60Q-80-30-62 4T33 59t99 63"/>
+<path transform="translate(837,31) scale(1,1)" d="M-180-60Q-80-30-62 4T33 59t99 63"/>
+<path transform="translate(919,320) scale(-1,1)" d="M-180-60Q-80-30-62 4T33 59t99 63"/>
+<path transform="translate(928,327) scale(-1,1)" d="M-180-60Q-80-30-62 4T33 59t99 63"/>
+<path transform="translate(937,334) scale(-1,1)" d="M-180-60Q-80-30-62 4T33 59t99 63"/>
+<path transform="translate(946,341) scale(-1,1)" d="M-180-60Q-80-30-62 4T33 59t99 63"/>
+</g><use href="#river" fill="url(#water)" stroke="#fdf6dc" stroke-width="9"/><use href="#river" fill="url(#ripples)"/>
+<g stroke-linecap="round" stroke-linejoin="round" fill="none">
+<path d="M-10 185Q80 181 126 152T265 148L347 176H404" stroke="#c8c3a5" stroke-width="17"/><path d="M-10 185Q80 181 126 152T265 148L347 176H404" stroke="#fbf4de" stroke-width="13"/>
+<path d="M154 350Q171 285 237 265L328 232l59-44" stroke="#c8c3a5" stroke-width="17"/><path d="M154 350Q171 285 237 265L328 232l59-44" stroke="#fbf4de" stroke-width="13"/>
+<path d="M541 177h94l81-58 110-35 144 6" stroke="#c8c3a5" stroke-width="17"/><path d="M541 177h94l81-58 110-35 144 6" stroke="#fbf4de" stroke-width="13"/>
+<path d="M635 177l84 53 111 10 144 78" stroke="#c8c3a5" stroke-width="17"/><path d="M635 177l84 53 111 10 144 78" stroke="#fbf4de" stroke-width="13"/>
+<path d="M45 12l51 41 60 11 34 69" stroke="#c8c3a5" stroke-width="17"/><path d="M45 12l51 41 60 11 34 69" stroke="#fbf4de" stroke-width="13"/>
+</g>
+<use href="#pine" transform="translate(48 120) scale(1.1)"/>
+<use href="#pine" transform="translate(73 129) scale(0.9)"/>
+<use href="#pine" transform="translate(90 109) scale(0.8)"/>
+<use href="#pine" transform="translate(224 85) scale(1)"/>
+<use href="#pine" transform="translate(245 95) scale(0.8)"/>
+<use href="#pine" transform="translate(265 82) scale(0.9)"/>
+<use href="#pine" transform="translate(61 294) scale(1.2)"/>
+<use href="#pine" transform="translate(86 305) scale(0.9)"/>
+<use href="#pine" transform="translate(112 284) scale(1.05)"/>
+<use href="#pine" transform="translate(355 313) scale(0.9)"/>
+<use href="#pine" transform="translate(375 326) scale(0.8)"/>
+<use href="#pine" transform="translate(652 62) scale(1.2)"/>
+<use href="#pine" transform="translate(677 64) scale(0.8)"/>
+<use href="#pine" transform="translate(700 50) scale(0.9)"/>
+<use href="#pine" transform="translate(739 300) scale(1.2)"/>
+<use href="#pine" transform="translate(763 309) scale(0.9)"/>
+<use href="#pine" transform="translate(787 290) scale(1.1)"/>
+<use href="#pine" transform="translate(885 170) scale(0.95)"/>
+<use href="#pine" transform="translate(911 178) scale(1.1)"/>
+<use href="#pine" transform="translate(934 165) scale(0.8)"/>
+<g transform="translate(267 139)"><path d="m-25 0 35-5 17 11-35 6Z" fill="#b9b797"/><path d="m-22-7 32-5 14 10-32 6Z" fill="#edc184" stroke="#987958"/><path d="m-21-13 32-5 14 10-32 6Z" fill="#f6d5a1" stroke="#987958"/></g>
+<g transform="translate(206 253)"><path d="m-25 0 35-5 17 11-35 6Z" fill="#b9b797"/><path d="m-22-7 32-5 14 10-32 6Z" fill="#edc184" stroke="#987958"/><path d="m-21-13 32-5 14 10-32 6Z" fill="#f6d5a1" stroke="#987958"/></g>
+<g transform="translate(753 92)"><path d="m-25 0 35-5 17 11-35 6Z" fill="#b9b797"/><path d="m-22-7 32-5 14 10-32 6Z" fill="#edc184" stroke="#987958"/><path d="m-21-13 32-5 14 10-32 6Z" fill="#f6d5a1" stroke="#987958"/></g>
+<g stroke="#416978" stroke-width="3" fill="#63828a"><path d="M393 166h14v44h-14Zm135 0h14v44h-14Z"/></g>
+<g transform="translate(404 165)"><use class="bridge-part bridge-west" href="#span"/><g transform="translate(45)"><use class="bridge-part bridge-middle" href="#span"/></g><g transform="translate(90)"><use class="bridge-part bridge-east" href="#span"/></g></g>
+<g class="bridge-agent scout" color="#60bdb1"><use href="#agent"/><g class="bridge-cargo"><use href="#span" transform="translate(10 -7) scale(.46)"/></g></g>
+<g class="bridge-agent maker" color="#f0b467"><use href="#agent"/><g class="bridge-cargo"><use href="#span" transform="translate(10 -7) scale(.46)"/></g></g>
+<g class="bridge-agent checker" color="#91a9db"><use href="#agent"/><g class="bridge-cargo"><use href="#span" transform="translate(10 -7) scale(.46)"/></g></g>
+</svg></div>

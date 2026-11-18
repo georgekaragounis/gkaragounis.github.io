@@ -96,3 +96,53 @@ html[data-theme="dark"] .page__content { --profile-accent: #8acec8; }
   .project-entry {grid-template-columns:1fr}
   .project-entry .project-visual {max-width:100px}
 }
+
+.bridge-map {
+  position:relative; isolation:isolate; width:100%; border-radius:.65rem; overflow:hidden;
+  svg {display:block;width:100%;height:auto}
+  .bridge-pause {position:absolute;width:1px;height:1px;opacity:0}
+  label {position:absolute;right:.5rem;bottom:.5rem;z-index:1;display:grid;place-items:center;width:34px;height:34px;margin:0;border-radius:50%;background:#244953;color:white;cursor:pointer}
+  label span {width:9px;height:11px;border-inline:3px solid}
+  input:checked + label span {width:0;height:0;border:0;border-left:9px solid white;border-block:6px solid transparent}
+  input:focus-visible + label {outline:3px solid #091f2d;outline-offset:2px}
+  input:checked ~ svg * {animation-play-state:paused}
+  .bridge-agent,.bridge-part,.bridge-cargo {animation-duration:12s;animation-iteration-count:infinite;animation-fill-mode:both}
+  .scout {transform:translate(429px,177px);animation-name:bridge-scout}
+  .maker {transform:translate(467px,182px);animation-name:bridge-maker}
+  .checker {transform:translate(508px,174px);animation-name:bridge-checker}
+  .bridge-west {animation-name:bridge-west}
+  .bridge-east {animation-name:bridge-east}
+  .bridge-middle {animation-name:bridge-middle}
+  .scout .bridge-cargo {animation-name:bridge-drop-west}
+  .checker .bridge-cargo {animation-name:bridge-drop-east}
+  .maker .bridge-cargo {animation-name:bridge-drop-middle}
+}
+@keyframes bridge-scout {
+  0%,8%,100% {transform:translate(267px,139px)}
+  18%,90% {transform:translate(347px,171px)}
+  30%,50% {transform:translate(403px,167px)}
+  62%,80% {transform:translate(429px,177px)}
+}
+@keyframes bridge-maker {
+  0%,14%,100% {transform:translate(206px,253px)}
+  27%,92% {transform:translate(328px,230px)}
+  39%,88% {transform:translate(394px,184px)}
+  53% {transform:translate(440px,179px)}
+  62%,80% {transform:translate(467px,182px)}
+}
+@keyframes bridge-checker {
+  0%,12%,100% {transform:translate(753px,92px)}
+  24%,92% {transform:translate(698px,128px)}
+  33%,86% {transform:translate(636px,172px)}
+  44%,52% {transform:translate(539px,169px)}
+  62%,80% {transform:translate(508px,174px)}
+}
+@keyframes bridge-west {0%,28%,100% {opacity:0} 31%,95% {opacity:1}}
+@keyframes bridge-drop-west {0%,28%,100% {opacity:1} 31%,98% {opacity:0}}
+@keyframes bridge-east {0%,42%,100% {opacity:0} 45%,95% {opacity:1}}
+@keyframes bridge-drop-east {0%,42%,100% {opacity:1} 45%,98% {opacity:0}}
+@keyframes bridge-middle {0%,51%,100% {opacity:0} 54%,95% {opacity:1}}
+@keyframes bridge-drop-middle {0%,51%,100% {opacity:1} 54%,98% {opacity:0}}
+@media(prefers-reduced-motion:reduce) {
+  .bridge-map { .bridge-agent,.bridge-part,.bridge-cargo {animation:none} .bridge-cargo,label,input {display:none} }
+}
